@@ -198,8 +198,3 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
-
-const newFeature = function () {
-  console.log('Welcome to the page!');
-};
-newFeature();
