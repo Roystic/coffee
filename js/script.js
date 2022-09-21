@@ -181,7 +181,6 @@ const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
     console.log(ent);
-    console.log('Welcome!');
 
     if (ent.isIntersecting === false) {
       document.body.classList.add('sticky');
@@ -199,3 +198,8 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+
+const newFeature = function () {
+  console.log('Welcome to the page!');
+};
+newFeature();
